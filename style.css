@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    height: 100vp;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.first-cont {
+    display: flex;
+    margin: 0;
+    padding: 16px 8px;
+    height: auto;
+    width: auto;
+    background-color: darkblue;
+    color: white;
+}
+
+.header {
+    display: flex;
+    height: 24px;
+    width: auto;
+    margin: 0 120px;
+}
+
+.header div {
+    display: flex;
+    width: 150px;
+}
+
+.special {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 400px;
+}
+
+.special {
+    border: 6px solid darkmagenta;
+    border-radius: 0%;
+    text-align: center;
+    width: auto;
+    height: 22px;
+}
+
+.second-cont {
+    display: flex;
+    margin: 0;
+    padding: 16px 8px;
+    height: auto;
+    width: auto;
+    background-color: darkblue;
+    color: white;
+}
+
+.cont-one {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 300px;
+    height: 100px;
+    margin: 100px 250px;
+    font-size: 18px;
+}
+
+.cont-one div {
+    display: flex;
+    color: white;
+}
+
+.spec {
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.cont-one button {
+    font-size: 16px;
+    width: 100px;
+    margin-top: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image-one {
+    flex: 1;
+    flex-direction: row;
+    margin: -250px 435px;
+    width: 600px;
+}
+
+.third-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 16px 8px;
+    height: auto;
+    width: auto;
+    background-color: white;
+    color: blue;
+}
+
+.text1 {
+    margin-top: 12px;
+    padding: 0 -10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 0px 200px;
+    gap: 32px;
+}
+
+.card div {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+}
+
+.card img {
+    border: 5px solid red;
+    border-radius: 12px;
+}
+
+.text2 {
+    flex: 1;
+    font-size: 15px;
+    padding-left: 12px;
+    flex-direction: column;
+}
+
+.text1 p {
+    margin-bottom: 64px;
+}
+
+.fourth-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(resource/OceansJames_St._JohnFlickr.jpg);
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    padding: 0 16px;
+}
+
+.text3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text4 {
+    font-size: 35px;
+    padding-left: 32px;
+    text-align: right;
+}
+
+.fifth-cont {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 100px 100px;
+}
+
+.fifth-cont div {
+    background-color: blue;
+    border: none;
+    width: 250px;
+    height: 150px;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-cont .one {
+    flex: 2;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.fifth-cont button {
+    
+    font-size: 24px;
+    border: 4px solid white;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+}
+
+.fifth-cont p, h2 {
+    padding: 0px 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px; 
+}
